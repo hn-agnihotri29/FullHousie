@@ -1,0 +1,195 @@
+body {
+  background-color: #85FFBD;
+  background-image: radial-gradient(circle, #85FFBD 0%, #FFFB7D 100%);
+}
+
+.winner{
+  color: #D9EF82;
+  text-align: justify;
+  font-size: 20px;
+  font-family: Times;
+  
+}
+
+.gridtkt>div {
+  padding: 2px;
+  border: 5px solid lightblue;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.findThenumber {
+  color: red;
+}
+
+.button {
+  justify-content: center;
+  font-family: Times;
+  font-size: 20px;
+  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 15px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 5px 5px 20px;
+  border-radius: 10px;
+  display: block;
+}
+
+.button:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.flexb {
+  display: flex;
+  flex-direction: row;
+}
+
+.tckt {
+
+  font-family: Times;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.item-1 {
+  height: 270px;
+
+  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+  margin: 10px;
+  padding: 15px 25px;
+  transition: 0.5s;
+
+  box-shadow: 3px 3px 30px;
+  border-radius: 10px;
+}
+
+.item-2 {
+  height: 270px;
+
+  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+  margin: 10px;
+  padding: 15px 25px;
+  transition: 0.5s;
+
+  box-shadow: 3px 3px 30px;
+  border-radius: 10px;
+}
+
+.ticket1 {
+  display: grid;
+  grid-template-columns: repeat(9, 35px);
+  grid-template-rows: repeat(3, 35px);
+  grid-row-gap: 2px;
+  grid-column-gap: 2px;
+
+  width: 330px;
+  height: 105px;
+  margin: left;
+  justify-content: center;
+  background: rgba(94, 191, 175, 1.0);
+  background: linear-gradient(to bottom right, rgba(94, 191, 175, 1.0), rgba(10, 174, 217, 1.0));
+  box-shadow: 25px 20px 20px rgba(0, 0, 0, 0.3)
+}
+
+/* .ticket1 > div{
+    padding: 2px;
+      border:1px solid lightblue;
+      background-color: white;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 10px;
+  } */
+
+.tambola {
+  width: 550px;
+  display: flex;
+  font-family: Times;
+  font-size: 60px;
+
+  background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA 51%, #1FA2FF 100%);
+  margin: 10px;
+  padding: 15px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+
+  box-shadow: 3px 3px 30px;
+  border-radius: 10px;
+  display: block;
+}
+
+.grid {
+  padding-top: 20px;
+  border-radius: 7%;
+  margin-top: 300px;
+
+  display: grid;
+  grid-template-columns: repeat(10, 50px);
+  grid-template-rows: repeat(9, 50px);
+  grid-row-gap: 4px;
+  grid-column-gap: 4px;
+
+  width: 550px;
+  height: 510px;
+  margin: 0 auto;
+  justify-content: center;
+
+  /* Created with https://www.css-gradient.com */
+  background: rgba(94, 191, 175, 1.0);
+  background: linear-gradient(to bottom right, rgba(94, 191, 175, 1.0), rgba(10, 174, 217, 1.0));
+  box-shadow: 25px 20px 20px rgba(0, 0, 0, 0.3)
+}
+
+.grid>div {
+  padding: 2px;
+  border: 5px solid lightblue;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.ticket2 {
+  display: grid;
+  grid-template-columns: repeat(9, 35px);
+  grid-template-rows: repeat(3, 35px);
+  grid-row-gap: 2px;
+  grid-column-gap: 2px;
+
+  width: 300px;
+  height: 105px;
+  margin: left;
+  justify-content: center;
+  background: rgba(94, 191, 175, 1.0);
+  background: linear-gradient(to bottom right, rgba(94, 191, 175, 1.0), rgba(10, 174, 217, 1.0));
+  box-shadow: 25px 20px 20px rgba(0, 0, 0, 0.3);
+  background: rgba(94, 191, 175, 1.0);
+  background: linear-gradient(to bottom right, rgba(94, 191, 175, 1.0), rgba(10, 174, 217, 1.0));
+  box-shadow: 25px 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* .ticket2 > div {
+    padding: 2px;
+      border:1px solid lightblue;
+      background-color: white;
+      border-radius: 50%;
+      text-align: center;
+      font-size: 10px;
+  } */
+
+.cell {
+  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.5)
+}
